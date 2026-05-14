@@ -1,0 +1,178 @@
+/* Reset default margins/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7ecee;
+    color: #ffffff;
+    /*text colour */
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.class-Navbar {
+    width: 80%;
+    min-height: 80%;
+}
+
+/* Logo at the top */
+.class-Navbar.logo {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+nav.logo img {
+    max-width: 100px;
+}
+
+.submission-container,
+.Info {
+    background-color: brown;
+
+}
+
+/* Main container: two columns side by side */
+.submission-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Left column (info text) */
+.submission-info {
+    flex: 1;
+}
+
+.submission-info h1 {
+    font-style: Arial rgb(245, 242, 242);
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    margin-top: 300px;
+
+}
+
+.submission-info p {
+    margin-bottom: 30px;
+    margin-left: 160px;
+    /* margin-top: 100px; */
+
+}
+
+.class-strong {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+/* Right column (form fields) */
+.Info {
+    flex: 1;
+    /* white box for inputs */
+    color: #020306;
+    /* dark text inside form */
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.class-Name {
+    background-color: #e44a4a;
+    width: 80%;
+    height: 80%;
+
+}
+
+.Info input {
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5px#f0e7e7;
+    font-family: inherit;
+}
+
+.Info textarea {
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5px#e6d4d4;
+    font-family: inherit;
+}
+
+.checkbox-group input {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5px#ebdfdf;
+    font-family: inherit;
+}
+
+.class-Awards {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.class-Tick {
+    font-size: 15px;
+    color: rgb(244, 239, 239);
+    margin-top: -5px;
+}
+
+/* Checkbox group styling */
+.checkbox-group h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.checkbox-group textarea {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+.checkbox-row {
+    display: flex;
+    justify-content: space-between;
+    /* pushes them apart */
+    gap: 40px;
+    /* controls spacing between checkboxes */
+    margin: 10px 0;
+}
+
+.checkbox-row label {
+    flex: 1;
+    /* makes them evenly spaced */
+}
+
+/* Submission button */
+button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 24px;
+    background-color: #f5efef;
+    color: #0c090a;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+}
